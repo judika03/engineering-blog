@@ -18,7 +18,7 @@ for manual
 
 then you input replica that you can want. 
 
-##3
+## 3
 we can setup kubernetes master or setup cluster in dashboard gke(only click)
 for apply kube yaml, you can apply manual, example, first you must find name project, then you apply file yaml kube.
 > msql kubectl apply -f $dirname-msql-yaml
