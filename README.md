@@ -5,9 +5,13 @@ Common Docs for how to do create yaml kube, kube config for developer in fast wa
 I have use kustumize for patch yaml deployment.  Why don't I use HELM for manage package?
 Because the tiller on the helme is very problematic with security issues and the tiller is sometimes slow.
 
-sample-command: provision INFRASTUCTURE
->  sh run.sh
+sample-command: provision INFRASTUCTURE KUBERNETEST OF GOOGLE CLOUD(GKE)
+- gcloud init
+- gcloud auth application-default login
+- gcloud container clusters create $project-name
 
+sample-command: provision pods(application) to kubernetest
+>  sh run.sh
 
 ## 2
 Kubernetes have feature for autoscaling pods base condition current performance.
