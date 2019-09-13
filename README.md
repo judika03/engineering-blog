@@ -21,11 +21,11 @@ then you input replica that you can want.
 ## 3
 we can setup kubernetes master or setup cluster in dashboard gke(only click)
 for apply kube yaml, you can apply manual, example, first you must find name project, then you apply file yaml kube.
-1. msql kubectl apply -f $dirname-msql-yaml
-2. wordpress kubectl apply -f $dirname-wordpress-yaml
+- msql kubectl apply -f $dirname-msql-yaml
+- wordpress kubectl apply -f $dirname-wordpress-yaml
 
 for instance aws(not kubernetest)
-1. launch 2 instance(msql and wordpress). if you can't install docker, you can use OS(Core Os)
-2. docker run accordingly enviroment your application.
+- launch 2 instance(msql and wordpress). if you can't install docker, you can use OS(Core Os)
+- docker run accordingly enviroment your application.
 
 DONE.
